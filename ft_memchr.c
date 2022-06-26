@@ -6,7 +6,7 @@
 /*   By: ytouab <ytouab@student.42abudhabi.ae>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/27 11:16:10 by ytouab            #+#    #+#             */
-/*   Updated: 2021/10/01 11:29:06 by ytouab           ###   ########.fr       */
+/*   Updated: 2022/06/26 19:21:38 by ytouab           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	*ft_memchr(const void *str, int c, size_t n)
 	i = 0;
 	while (i < n)
 	{
-		 if (((char *)str)[i] == (char)c)
+		if (((char *)str)[i] == (char)c)
 			return ((void *)str + i);
 		i++;
 	}

@@ -6,7 +6,7 @@
 /*   By: ytouab <ytouab@student.42abudhabi.ae>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/03 10:36:34 by ytouab            #+#    #+#             */
-/*   Updated: 2021/10/03 15:50:46 by ytouab           ###   ########.fr       */
+/*   Updated: 2022/06/26 19:21:56 by ytouab           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_lstsize(t_list *lst)
 {
-	int		i;
+	int	i;
 
 	i = 0;
 	if (!lst)
